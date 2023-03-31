@@ -16,13 +16,66 @@
 <body>
     <div class="container">
         <h1 class="text-center display-2">Part 1</h1>
+        <h4>Billing Address</h4>
+        <form>
+  <div class="mb-3">
+    <label for="full-name" class="form-label">Full Name</label>
+    <input type="text" placeholder="Full Name" class="form-control" id="full-name" required>
+  </div>
+  <div class="mb-3">
+    <label for="username" placeholder="Username" class="form-label">Username</label>
+    <input type="text" class="form-control" id="username" required>
+  </div>
+  <div class="mb-3">
+    <label for="email" class="form-label">Email</label>
+    <input type="email" placeholder="you@example.com" class="form-control" id="email">
+  </div>
+  <div class="mb-3">
+    <label for="address" class="form-label">Address</label>
+    <input type="text" class="form-control" id="address" required>
+  </div>
+  <div class="mb-3">
+    <label for="address2" class="form-label">Address 2</label>
+    <input type="text" placeholder="1234 Market St" class="form-control" id="address2">
+  </div>
+  <div class="mb-3">
+    <label for="special-notes" class="form-label">Special Notes</label>
+    <textarea class="form-control" id="special-notes" rows="3"></textarea>
+  </div>
+  <div class="mb-3 form-check">
+    <input type="checkbox" class="form-check-input" id="checkbox1">
+    <label class="form-check-label" for="checkbox1">Shipping address is same as billing</label>
+  </div>
+  <div class="mb-3 form-check">
+    <input type="checkbox" class="form-check-input" id="checkbox2">
+    <label class="form-check-label" for="checkbox2">Save my info for next time</label>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
         <!-- Write your first form here -->
     </div>
 
 
     <h1 class="text-center display-2">Part 2</h1>
     <div class="container border rounded" style="max-width: 400px;">
-       Write your second form here (and delete this line!)
+        <h3 class="text-center mb-4">Sign In</h3>
+        <form class="mb-5">
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+            <p>Not a member? Register</p>
+          </form>
     </div>
 
 
